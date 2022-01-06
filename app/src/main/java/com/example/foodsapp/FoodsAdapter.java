@@ -35,7 +35,7 @@ public class FoodsAdapter extends RecyclerView.Adapter<FoodsAdapter.ListViewHold
         Food food = foodData.get(position);
         holder.judul.setText(food.judul);
         holder.harga.setText(String.valueOf(food.harga));
-        holder.image.setBackground(food.image);
+//        holder.image.setBackground(food.image);
         holder.image.setImageDrawable(food.image);
     }
 
